@@ -100,6 +100,16 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
 
+
+ .me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 75px;
+    color: white;
+ }
+
  .answer{
     display: flex;
     width: 100%;
@@ -108,13 +118,69 @@ body{
     justify-content: center;
     position: relative;
     margin-top: 100px;
-    color: white;
  }
 .One{
+    width: 450px;
+    margin-left: 100px;
 }
-.Two{
+.One h1{
+    color: #857a66;
+}
+.One p{
+    font-size: 25px;
+    color: #d3c1a1;
+}
+.two{
+    width: 450px;
+    margin-left: 100px;
+}
+.two h1{
+    color: #857a66;
+}
+.two p{
+    font-size: 25px;
+    color:  #d3c1a1;
+}
+.three{
+    width: 450px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.three h1{
+    color: #857a66;
+}
+.three p{
+    font-size: 25px;
+    color:  #d3c1a1;
+}
+
+.Pind{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 75px;
+    color: white;
+}
+
+span {
+    display: block;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+.text5{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
 
 }
-.Three{
-
+button{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #45a29e;
 }

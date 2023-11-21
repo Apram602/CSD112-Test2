@@ -70,8 +70,15 @@
         </Div>
     </div>
 
+    <br>
+    <br>
+
+    <div class="me">
+    <h1>About Me</h1>
+    </div>
 
     <div class="answer">
+
 
         <div class="One">
         <h1>History & Background:</h1>
@@ -80,14 +87,50 @@
         <br>
         <div class="two">
         <h1>Identity & Present:</h1>
-        <p>Age is but a number, and as the pages turn, so does the count of my years. My hobbies are the colors that splash vibrancy onto the canvas of my life. From [Hobby 1] to [Hobby 2], these passions offer glimpses into who I am—capturing my essence beyond the ticking of the clock.</p>
+        <p>Age is but a number, and as the pages turn, so does the count of my years. My hobbies are the colors that splash vibrancy onto the canvas of my life. From Gamining to Graphic Designing, these passions offer glimpses into who I am—capturing my essence beyond the ticking of the clock.</p>
         </div>
         <br>
         <div class="three">
         <h1>Favorite Pursuit:</h1>
-        <p>Among my favorite things lies a treasure trove of delights, but one stands tall—a book/movie/hobby that resonates deeply within. [Favorite Thing] isn't just an escape; it's a passage to alternate worlds, a symphony of emotions, and a guiding star in my universe.</p>
+        <p>Among my favorite things lies a treasure trove of delights, but one stands tall—a book/movie/hobby that resonates deeply within. Anime isn't just an escape; it's a passage to alternate worlds, a symphony of emotions, and a guiding star in my universe.</p>
         </div>
     </div>
+    <br>
+    <br>
+
+    <div class="Pind">
+        <h1>Village Map</h1>
+        <br>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6911.879028687218!2d75.65310369240136!3d29.981168243058452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391106e5a5a6248d%3A0x7feda0e07de4cd15!2sRatta%20Khera%2C%20Punjab%20148031%2C%20India!5e0!3m2!1sen!2sca!4v1696781167432!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <button onclick="typeWriter()">Click me For Age</button>
+
+    <p id="demo" class="text5"></p>
+    
+    <script>
+    var i = 0;
+    var txt = 'My Current Age is 20';
+    var speed = 50;
+    
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("demo").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+    </script>
+
+<br>
+<br>
+<br>
+
 </div>
 
 
